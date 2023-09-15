@@ -1,0 +1,48 @@
+body{
+  z-index: 1;
+  position: relative;
+}
+#toast{
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  right: 20px;
+}
+.appear{
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  animation: fadeIn 0.3s linear;
+}
+@keyframes fadeIn{
+  0%{
+    transform: translateX(150%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.desappear{
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  animation: fadeOut 0.3s linear;
+}
+@keyframes fadeOut{
+  0%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(150%);
+    opacity: 0;
+  }
+}
+

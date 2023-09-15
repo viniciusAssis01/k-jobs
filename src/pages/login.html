@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!--                    ESTILIZACAO                  -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/indexHeader.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+            <div class="logo">
+                <figure class="logo">
+                    <img src="../images/logo.svg" alt="">
+                </figure>
+            </div>
+            <img src="../images/menu hamburger.svg" alt="" class="menu-hamburguer">
+            <nav class="nav__container">
+                    <div class="botoes">
+                        <button class="buttonHeader" id="pgHome">home</button>
+                        <button class="buttonHeader PgCadastro" >Cadastro</button>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="" class="containerForm">
+            <h1>Login</h1>
+            <p>preecha os campos para realizar login</p>
+            <div class="containerInputs">
+                <input type="Email" placeholder="Seu e-mail" class="inputsCadastro inputLogin" name="email">
+                <input type="password" placeholder="Sua senha" class="inputsCadastro inputLogin" name="password">
+
+                <button class="buttonCadastrarRetornar login_button">Login</button>
+                <p class="entreButtons">ou</p>
+                <button class="buttonCadastrarRetornar PgCadastro" >Cadastrar-se</button>
+            </div>
+        </form>
+    </main>
+
+    <script type="module" src="../scripts/login.js"></script>
+</body>
+</html>

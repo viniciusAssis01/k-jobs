@@ -1,0 +1,192 @@
+dialog{
+    margin: 0 auto ;
+    position: relative;
+    top: 250px;
+}
+dialog::backdrop{
+    background-color: #000000c4;
+}
+
+
+.modalContainer_eidtarUsuario{
+    width: 506px;
+    height: 342px;
+    padding: 39px 43px;
+    border: 2px solid transparent;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.select_button{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.selectModalEditUser_admin{
+    width: 100%;
+    height: 52px;
+    padding: 17px 17px;
+}
+
+
+/* modal deletar usuario - pg admin */
+.modalContainer_deletUsuario{
+    width: 700px;
+    height: 292px;
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer_deletUsuario  >.fecharModal{
+    align-self: flex-end;
+}
+.deletarUsuario_titleButtonContainer{
+    width: 419px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+/*               modal deleteDEp        */
+.modalContainer_deletDepartamento{
+    width: 700px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer_deletDepartamento > .fecharModal{
+    align-self: flex-end;
+}
+/* modal DeleteDep */
+.deletarDep_titleButtonContainer{
+    width: 419px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+/* modal editar usuario - pg usuario */
+.modalContainerEditUsuario_usuario{
+    width: 506px;
+    padding: 35px 49px;
+}
+.form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.form_inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+/* modal EditarDep */
+.modalContainer_editDep{
+    width: 500px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer_editDep > .fecharModal{
+    align-self: flex-end;
+}
+.editDep_container{
+    width: 422px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;;
+    gap: 34px;
+}
+.textAreaModalEditarDep{
+    max-width: 422px;
+    min-width: 422px;
+    min-height: 113px;
+    max-height: 113px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+/* modal Criar dep */
+.modalContainer_criaDep{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer_criaDep >.fecharModal{
+    align-self: flex-end;
+}
+.criaDep_container{
+    width: 422px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* modal viewDEp */
+.modalContainer_viewDep{
+    width: 857px;
+    height: 637px;
+    display: flex;
+    flex-direction: column;
+}
+.modalContainer_viewDep > .fecharModal{
+    align-self: flex-end;
+}
+.viewDep_containerTitleDescSelect{
+    width: max-content;
+    margin-left:43px; 
+    margin-right: 43px;
+}
+.container_descricaoSelect{
+    display: flex;
+    align-items: center;
+    gap: 64px
+}
+.viewdep_containerDescricao{
+    display: flex;
+    flex-direction: column;;
+    gap: 11px;
+
+}
+.viewdep_selectButton{
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.listaUsuariosModalView{
+    margin-top: 65px;
+    margin-left: 43px;
+    display: flex;
+    padding: 43px 33px;
+    gap: 31px;
+    background-color: var(--brancoEscuro);
+    overflow-x: auto;
+    list-style: none;
+}
+.listaUsuariosModalView > li{
+    min-width: 306px;
+    background-color: var(--white);
+}
+.descricao_container{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 22px;
+}
+.ItemListaUsuarioModalView_containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

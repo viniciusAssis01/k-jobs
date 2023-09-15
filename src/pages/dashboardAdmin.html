@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard usuario</title>
+
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/globalStyle.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/dashboardHeader.css">
+    <link rel="stylesheet" href="/src/styles/modais.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="/src/styles/dashboardAdmin.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+
+
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+                <figure class="logo">
+                    <img src="../images/logo.svg">
+                </figure>
+
+                <nav class="nav__container">
+                    <button id="logout" class="buttonLogout">Logout</button>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="sectionAdminListaDep">
+            <div class="descricao_TabelaDep">
+                <h1>Departamentos</h1>
+
+                <select class="selectAdmin">
+                    <option value="" class="pegaTodosDep">selecionar Empresa</option>
+                </select>
+                <button class="buttonCriarDepartamento">
+                    <p>+</p>
+                    <p>Criar</p>
+                </button>
+            </div>
+
+            <ul class="listaDepartamentos">
+
+            </ul>
+        </section>
+
+        <section>
+            <h1>usuarios Cadastrados</h1>
+            <ul class="ListaUsuarios">
+            </ul>
+        </section>
+
+        <dialog class="modalController">
+        </dialog>
+
+    </main>
+
+    <script type="module" src="../scripts/dashboardAdmin.js"></script>
+</body>
+</html>

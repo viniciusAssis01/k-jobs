@@ -1,0 +1,52 @@
+main{
+    width: 100%;
+    padding: 90px 118px 30px 118px;
+}
+
+.SeçaoInfUsuario{
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 20px 31px;
+    margin-bottom: 44px;
+}
+.container_text_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Empresa_departamento{
+    width: 1180px;
+    margin: 0 auto;
+}
+.Empresa_departamento > h1{
+    height: 78px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+.listaColegasDeDep{
+    width: 100%;
+    list-style: none;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:13px 50px;
+    padding: 58px 59px;
+    background-color: var(--brancoEscuro);
+    border: 1px solid transparent;
+    overflow: auto;
+}
+.itemLista{
+    width: 318px;
+    height: 76px;
+    border: 1px solid var(--blue);
+    padding: 12px 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background-color: var(--white);
+}

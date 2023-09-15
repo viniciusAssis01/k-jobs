@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard usuario</title>
+
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/globalStyle.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/dashboardHeader.css">
+    <link rel="stylesheet" href="/src/styles/modais.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/dashboardUsuario.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+                <figure class="logo">
+                    <img src="../images/logo.svg">
+                </figure>
+
+                <nav class="nav__container">
+                    <button id="logout" class="buttonLogout">Logout</button>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="SeçaoInfUsuario">
+        </section>
+
+        <section class="Empresa_departamento">
+            <h1 class="nomeEmpresa"> Company name</h1>
+            <ul class="listaColegasDeDep">
+            </ul> 
+        </section>
+    </main>
+
+    <dialog class="modalController">
+    </dialog>
+
+    <script type="module" src="../scripts/dashboardUsuario.js"></script>
+</body>
+</html>

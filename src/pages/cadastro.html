@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title> 
+
+    <!--                    ESTILIZACAO                  -->
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyle.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/inputs.css">
+    <link rel="stylesheet" href="../styles/indexHeader.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="stylesheet" href="../styles/toast.css">
+    
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+            <div class="logo">
+                <figure class="logo">
+                    <img src="../images/logo.svg" alt="">
+                </figure>
+            </div>
+            <img src="../images/menu hamburger.svg" alt="" class="menu-hamburguer">
+            <nav class="nav__container">
+                    <div class="botoes">
+                        <button class="buttonHeader pgHome">home</button>
+                        <button class="buttonHeader" id="pgLogin">Login</button>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="" class="containerForm">
+            <h1>Cadastra-se</h1>
+            <div class="containerInputs">
+                <input type="text" placeholder="Seu Nome" class="inputsCadastro" name="username">
+                <input type="Email" placeholder="Seu e-mail" class="inputsCadastro" name="email">
+                <input type="password" placeholder="Sua senha" class="inputsCadastro" name="password">
+                <select name="professional_level" id="" class="select">
+                    <option value="">Nivel Profissional</option>
+                    <option value="júnior">junior</option>
+                    <option value="pleno">pleno</option>
+                    <option value="sênior">senior</option>
+                </select>
+                <button class="buttonCadastrarRetornar cadastrar" id="cadastrar">cadastre-se</button>
+                <button class="buttonCadastrarRetornar pgHome">retornar</button>
+            </div>
+        </form>
+    </main>
+
+    <script type="module" src="../scripts/cadastro.js"></script>
+    <script src="../scripts/requests.js"></script>
+</body>
+</html>

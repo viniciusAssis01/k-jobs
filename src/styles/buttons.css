@@ -1,0 +1,147 @@
+.mobileLoginCadastro{
+    width:149px;
+    height: 48px;
+    padding: 13px 47px;
+    border: 2px solid var(--blue);
+    color: var(--blue); 
+    cursor: pointer;
+}
+.mobileLoginCadastro:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.desktopLoginCadastro{
+    width:142px;
+    height: 48px;
+    padding: 13px 45px;
+    border: 2px solid var(--blue);
+    color: var(--blue); 
+    cursor: pointer;
+}
+.desktopLoginCadastro:hover{
+    background-color: var(--blue);
+    color: var(--white);
+   /*  transform: scale(1.2) */
+}
+
+.buttonCadastrarRetornar{
+    height: 45px;
+    padding: 13px 80px;
+    border: 2px solid var(--blue);
+    color: var(--blue); 
+    cursor: pointer;
+}
+.buttonCadastrarRetornar:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.buttonLogout{
+    width:max-content;
+    height: 48px;
+    padding: 13px 45px;
+    border: 2px solid var(--blue);
+    color: var(--blue); 
+    cursor: pointer;
+}
+.buttonLogout:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.buttonCriarDepartamento{
+    width: 142px;
+    height: 48px;
+    padding: 13px 45px;
+    border: 2px solid var(--blue);
+    color: var(--white); 
+    cursor: pointer;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+}
+.buttonCriarDepartamento:hover{
+    background-color: var(--white);
+    color: var(--blue); 
+}
+
+.fecharModal{
+    width: max-content;
+    height: max-content;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: var(--white);
+    font-size: 22px;
+}
+.fecharModal:hover{
+    color: var(--white);
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+}
+
+
+.Editar{
+    width: 100%;
+    height: 48px;
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+.editar:hover{
+    background-color: #4a0afa4b;
+}
+
+.buttonDeletarUsuario, .buttonDeletarDep{
+    height: 48px;
+    background-color: var(--green);
+    color: var(--white);
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.salvarAlteracoes, .buttonCriarDep{
+    width: 100%;
+    height: 48px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    border: 2px solid var(--blue);
+}
+
+.Contratar{
+    width: max-content;
+    padding: 13px 26px;
+    height: 48px;
+    align-self: flex-end;
+    color: var(--white);
+    cursor: pointer;
+    border: 2px solid var(--green);
+    background-color: var(--green);
+}
+.desligar_funcionario{
+    width: 157px;
+    height: 48px;
+    cursor: pointer;
+    border: 2px solid var(--red);
+    color: var(--red);
+    background-color: var(--white);
+}
+.desligar_funcionario:hover{
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.buttonEditar{
+    width: 100%;
+    height: 48px;
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+.container_imagemBotao{
+    cursor: pointer;
+}

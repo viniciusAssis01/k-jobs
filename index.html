@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <!--                    ESTILIZACAO                  -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/globalStyle.css">
+    <link rel="stylesheet" href="src/styles/buttons.css">
+    <link rel="stylesheet" href="src/styles/indexHeader.css">
+    <link rel="stylesheet" href="src/styles/index.css">
+
+</head>
+<body>
+    <header >
+        <div class="containerHeader">
+            <div class="logo">
+                <figure class="logo">
+                    <img src="src/images/logo.svg" alt="">
+                </figure>
+            </div>
+            <img src="src/images/menu hamburger.svg" alt="" class="menu-hamburguer">
+            <nav class="nav__container">
+                    <div class="botoes">
+                        <button id="login">Login</button>
+                        <button id="cadastro">Cadastro</button>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container__columDir hiddenColumDir">
+            <figure>
+                <img src="src/images/Rectangle 6.png" alt="">
+            </figure>
+        </section>
+
+        <section class="container__columEsq">
+            <div class="title">
+                <select name="" id="" class="selectHome">
+                    <option value="" class="pegaTodasEmpresas">Selecionar Setor</option>
+                </select>
+            </div>
+            <div class="containerLista">
+                <ul class="listaEmpresas">
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+
+    <script type="module" src="./src/scripts/index.js"></script>
+
+</body>
+</html>
